@@ -1,4 +1,12 @@
 .charts-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .charts-container {
+    flex-direction: column;
+  }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import LineChart from "../Charts/LineChart";
 import Pi from "../Charts/PieChart";
 import { UserData } from "../../Data";
